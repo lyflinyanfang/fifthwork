@@ -1,0 +1,266 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+a {
+  color:#FFFFFF;
+  text-decoration:none;
+}
+
+#background{
+	position:absolute;
+	z-index:-1;
+}
+#nav{
+	width:1335px;
+	height:36px;
+	background-color:#272728;
+}
+.nav-left{
+	float:left;
+	margin-left:180px;
+	 margin-top:8px;
+	
+}
+.separtors {
+	 float:right;
+  margin-right:180px;;
+   margin-top:8px;
+}
+#header{
+	position:relative;
+	margin-top:50px;
+	margin-left:180px;
+	width:1335px;
+	height:70px;
+}
+.logo-left{
+   float:left;
+ }
+.logo-left p{
+	position:relative;
+	margin:0px;
+	font-size:15px;
+	color:#DEDEDE;
+}
+.search-box{
+	position:relative;
+	float:right;
+	margin-right:361px;
+	width:190px;
+	height:25px;
+	background-color:#0A0A0A;
+	border-radius:11px;
+}
+.search-box form>input{
+	border-left:0px;
+	border-top:0px;
+	border-right:0px;
+	border-bottom:0px;
+	border-radius:11px;
+	padding-top:3px;
+	background-color:#0A0A0A;
+}
+.searchbox{
+	position:relative;
+	float:right;
+}
+.daohang{
+	
+	margin-top:0px;
+	margin-left:180px;
+	width:975px;
+	height:55px;
+	background:#3995C4;
+	border-radius: 11px;
+}
+.daohang ul{
+	list-style:none;
+}
+.daohang ul li{
+	display:inline;
+	position:relative;
+	float:left;
+	padding: 20px;
+    border-right:2px solid #366C88;
+    font-size: 12px;
+    font-weight: 600;
+}
+.daohang li:hover{
+	background-color:#0F6EB7;
+}
+.container{
+	position:relative;
+	margin-top:15px;
+	margin-left:180px;
+	width:975px;
+	height:360px;
+	background:white;
+	-moz-border-top-left-radius: 11px;
+	-khtml-border-top-left-radius: 11px;
+	-webkit-border-top-left-radius: 11px;
+	-moz-border-top-right-radius: 11px;
+	-khtml-border-top-right-radius: 11px;
+	-webkit-border-top-right-radius: 11px;
+}
+.container-sider{
+	position:relative;
+	margin-left:180px;
+	width:975px;
+	height:60px;
+	background-color:#191919;
+	-moz-border-bottom-left-radius: 11px;
+	-khtml-border-bottom-left-radius: 11px;
+	-webkit-border-bottom-left-radius: 11px;
+	-moz-border-bottom-right-radius: 11px;
+	-khtml-border-bottom-right-radius: 11px;
+	-webkit-border-bottom-right-radius: 11px;
+}
+.container-sider div{
+	float:left;
+	position:relative;
+	margin-top:20px;
+	
+}
+.container-sider-one{
+	margin-left:180px;
+}
+.container-sider-two{
+	margin-left:15px;
+}
+.container-sider-three{
+	margin-left:15px;
+}
+#footer{
+	position:relative;
+	margin-left:188px;
+	margin-top:63px;
+}
+.zuoshang{
+	position:absolute;
+	float:left;
+	margin-left:0px;
+	margin-top:0px;
+	padding-left:15px;
+	padding-top:20px;
+	width:600px;
+	color:white;
+}
+.zuoshang p{
+	font-size:12px;
+	font-family:inherit;
+}
+.zuoshang div{
+	position:relative;
+	margin-top:7px;
+}
+.youshang{
+	position:absolute;
+	float:left;
+	margin-left:615px;
+	margin-top:0px;
+	padding:15px;
+	padding-top:20px;
+	width:325px;
+	height:50px;
+	color:white;
+}
+.youshang ul{
+	font-size:13px;
+	font-family:inherit;
+}
+.youshang ul li{
+	padding-top:5px;
+}
+.youshang ul li a{
+	color:#349CE6;
+	text-decoration:underline;
+}
+.youshang ul li a:hover{
+	color:white;
+}
+.zuoxia{
+	position:absolute;
+	margin-top:254px;
+	margin-left:0px;
+	padding-left:15px;
+	padding-top:20px;
+	width:600px;
+	height:360px;
+	color:white;
+}
+.zuoxia h2{
+	position:relative;
+	float:left;
+}
+.zuoxia p{
+	font-size:12px;
+	font-family:inherit;
+}
+.zuoxia>div{
+	position:relative;
+	margin-top:25px;
+	width:500px;
+	height:200px;
+	background-color:#141414;
+}
+.left img{
+	position:absolute;
+	margin-left:10px;
+	margin-top:90px;
+}
+.right img{
+	position:relative;
+	margin-left:475px;
+	margin-top:90px;
+}
+.youxia{
+	position:absolute;
+	float:right;
+	margin-top:263px;
+	margin-left:625px;
+	padding-left:15px;
+	padding-top:20px;
+	width:320px;
+	height:360px;
+	color:white;
+}
+.youxia ul{
+	list-style-type:none;
+	font-size:13px;
+	font-family:inherit;
+}
+.youxia div{
+	position:relative;
+	margin-top:25px;
+}
+.footer-sider{
+	position:relative;
+	margin-left:185px;
+	margin-top:700px;
+	padding-top:5px;
+	width:975px;
+}
+.footer-sider span{
+	font-size:11px;
+}
+.footer-sider ul{
+	float:left;
+	list-style-type:none;
+	margin-left:0px;
+}
+.footer-sider ul li{
+	display:inline;
+	font-size:11px;
+}
+.footer-sider-right{
+	float:right;
+	margin-right:0px;
+	color:white;
+}
+
+
+
+/* CSS Document */
+
+
